@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body{
+    background-image: url('../img/6035425menor.jpg');
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+    width: 40vw;
+    height: 100vh;
+    box-shadow: -3px 0px 100px #780ebe;
+}
+
+h1{
+    margin-bottom: 8vh;
+    color: #9b04ff;
+    font-size: 30px;
+}
+
+p{
+    max-width: 20vw;
+    text-align: center;
+    font-size: 14px;
+    color: #cf21c7;
+    font-weight: bold;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+}
+
+label{
+    margin-top: 20px;
+}
+
+input{
+    min-width: 20vw;
+    border: none;
+    border-bottom: #9b04ff 2px solid;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+button{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 8px 20px;
+    background-color: #9b04ff;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fcfcfc;
+    cursor: pointer;
+}
+
+#mensagemRecebida{
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    color: #780ebe;
+}

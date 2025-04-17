@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "Fernando Sales",
+        "email": "fernando@gmail.com",
+        "senha": "123123ab"
+    },
+    {
+        "nome": "Ana Oliveira",
+        "email": "anab.goncalo@gmail.com",
+        "senha": "147852abc"
+    },
+    {
+        "nome": "Dayse Cristiane",
+        "email": "daysecris2@outlook.com",
+        "senha": "awds9361"
+    },
+    {
+        "nome": "Gerson Souza",
+        "email": "souzag@email.com",
+        "senha": "kakaka1900"
+    },
+    {
+        "nome": "Charlotte Oliveira",
+        "email": "charlotteoliv@gmail.com",
+        "senha": "ch4rl0tt6"
+    },
+    {
+        "nome": "Arthaniel Oliveira",
+        "email": "artoliv@gmail.com",
+        "senha": "asdfg951753"
+    },
+    {
+        "nome": "Ezarel Oliveira",
+        "email": "ezaoliv@gmail.com",
+        "senha": "poiuy2321"
+    },
+    {
+        "nome": "Triz Gonçalo",
+        "email": "anagoncalo36@gmail.com",
+        "senha": "asdf1234"
+    }
+]

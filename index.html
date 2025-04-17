@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Formulário HTMl</h1>
+        <div>
+            <label for="nome">Nome</label>
+            <input id="campoNome" type="text" placeholder="Digite o nome de usúario">
+            <p id="mensagemNome"></p>
+
+            <label for="email">E-mail</label>
+            <input id="campoEmail" type="email" placeholder="Digite o e-mail">
+            <p id="mensagemEmail"></p>
+            
+            <label for="senha">Senha</label>
+            <input id="campoSenha" type="password" placeholder="Digite a senha">
+            <p id="mensagemSenha"></p>
+        </div>
+        <button id="botaoConf">Confirmar!</button>
+        <p id="mensagemRecebida"></p>
+
+        <dialog>
+            <h3>Código de Verificação</h3>
+            <input id="campoCodInformado" type="text" maxlength="6" pattern="[A-Za-z0-9]">
+            <button id="validar" onclick="validandoSalvando()">Validar!</button>
+        </dialog>
+    </main>
+
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
